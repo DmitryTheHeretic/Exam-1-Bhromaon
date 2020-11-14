@@ -234,20 +234,26 @@ ul.list li {
     margin-left: 25%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .page-header__searh-form {
     flex-direction: column;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .searchbar {
-    font-size: 10px;
+    font-size: 14px;
+    text-align: center;
   }
 
   .page-header__button {
     width: 55%;
     margin-left: 25%;
+  }
+
+  .page-header__button {
+    width: 60%;
+    margin-left: 21%;
   }
 }
 /*footer*/
@@ -290,9 +296,14 @@ ul.list li {
 @media screen and (max-width: 768px) {
   .Footer .Footer__section-wrapper .Footer__social-icons li {
     font-size: 40px;
-  }
-  .Footer .Footer__section-wrapper .Footer__social-icons li {
     padding-left: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Footer .Footer__section-wrapper .Footer__social-icons li {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -433,11 +444,11 @@ ul.list li {
     right: 0px;
     display: none;
     width: 100%;
+    height: 520%;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #5474fd;
     text-align: center;
-    z-index: 5;
   }
 
   .navigation-menu__item {
